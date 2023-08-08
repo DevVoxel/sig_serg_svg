@@ -7,10 +7,11 @@ import AllShade from '../components/AllShade';
 export default function Home() {
   return (
     <main>
-      <LengthButton />
-      <OutlineFirst />
-      <LightShade />
-      <AllShade />
+      <div className='grid grid-cols-2 gap-4'>
+        <OutlineFirst />
+        <LightShade />
+        <AllShade />
+      </div>
     </main>
   );
 }
