@@ -6,8 +6,8 @@ import { motion } from 'framer-motion';
 function OutlineFirst(): JSX.Element {
   return (
     <motion.svg
-      width='360'
-      height='360'
+      width='240'
+      height='240'
       viewBox='0 0 2095 2490'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'

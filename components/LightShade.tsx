@@ -7,8 +7,8 @@ function LightShade(): JSX.Element {
   return (
     <>
       <motion.svg
-        width='360'
-        height='360'
+        width='240'
+        height='240'
         viewBox='0 0 2095 2490'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
@@ -72,43 +72,5 @@ function LightShade(): JSX.Element {
     </>
   );
 }
-<svg
-  width='2024'
-  height='2314'
-  viewBox='0 0 2024 2314'
-  fill='none'
-  xmlns='http://www.w3.org/2000/svg'
->
-  <g filter='url(#filter0_f_36_15)'>
-    <path
-      d='M15.5 1859.5H77.5L145 1778M119 1713H196L264.5 1630M1001.5 21.5L1252.5 254V534M1404 413.5V668.5L1273 801.5M1609 778.5V952.5L1489 1110.5M1733.5 1042L1578 1243H1505.5M1793.5 1168.5C1795.1 1176.5 1873.17 1262.83 1912 1305H1654.5M1816.5 1340.5L1988.5 1523H1729.5M1308.5 1793L1228.5 1903V2023.5M1374 1842.5L1303 1931.5L1295.5 2083M1007 1970V2118L875.5 2293M1523 650.5V818.5L1385.5 976.5M350.5 1352C351.7 1347.2 434.667 1239.33 476 1186L739 1195.5'
-      stroke='#002743'
-      stroke-width='17'
-    />
-  </g>
-  <defs>
-    <filter
-      id='filter0_f_36_15'
-      x='0.5'
-      y='0.26416'
-      width='2022.69'
-      height='2312.84'
-      filterUnits='userSpaceOnUse'
-      color-interpolation-filters='sRGB'
-    >
-      <feFlood flood-opacity='0' result='BackgroundImageFix' />
-      <feBlend
-        mode='normal'
-        in='SourceGraphic'
-        in2='BackgroundImageFix'
-        result='shape'
-      />
-      <feGaussianBlur
-        stdDeviation='7.5'
-        result='effect1_foregroundBlur_36_15'
-      />
-    </filter>
-  </defs>
-</svg>;
 
 export default LightShade;
